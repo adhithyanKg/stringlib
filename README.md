@@ -18,12 +18,12 @@ Whether you're building embedded systems, writing utilities, or learning C progr
 | char* reverseString(const char* string)                                           | Returns a newly allocated string that is the reverse of the input.                            |
 | bool isPalindrome(const char* string)                                             | Checks if the string is a palindrome (reads the same forward and backward).                   |
 | int countSpace(const char* string)                                                | Returns the number of whitespace characters (spaces) in the string.                           |
-| int findFirstCharacterIndex(const char* string, const char c)`                    | Returns the index of the first occurrence of character, or -1 if not found.                   |
-| int findLastCharacterIndex(const char* string, const char c)`                     | Returns the index of the last occurrence of character, or -1 if not found.                    |
-| void convertToLowerCase(char* string)`                                            | Converts all alphabetic characters in the string to lowercase (in-place).                     |
-| void convertToUpperCase(char* string)`                                            | Converts all alphabetic characters in the string to uppercase (in-place).                     |
-| int countCharacterIgnoreCaseSensitive(const char* string, char c)`                | Returns count of specific character appears in the string (case-insensitive match).           |
-| int countCharacterCaseSensitive(const char* string, char c)`                      | Returns count of specific character appears in the string (case-sensitive match).             |
+| int findFirstCharacterIndex(const char* string, const char c)                     | Returns the index of the first occurrence of character, or -1 if not found.                   |
+| int findLastCharacterIndex(const char* string, const char c)                      | Returns the index of the last occurrence of character, or -1 if not found.                    |
+| void convertToLowerCase(char* string)                                             | Converts all alphabetic characters in the string to lowercase (in-place).                     |
+| void convertToUpperCase(char* string)                                             | Converts all alphabetic characters in the string to uppercase (in-place).                     |
+| int countCharacterIgnoreCaseSensitive(const char* string, char c)                 | Returns count of specific character appears in the string (case-insensitive match).           |
+| int countCharacterCaseSensitive(const char* string, char c)                       | Returns count of specific character appears in the string (case-sensitive match).             |
 
 ## Code Structure
 ```
@@ -35,6 +35,12 @@ stringlib/
 ├── config.h       # Toggle between RUN_MAIN and RUN_TESTS
 └── README.md      # Documentation (this file)
 ```
+
+## Try it yourself!
+Click the link here --> https://onlinegdb.com/PoZjDwgMS
+
+#### Note: Click on "Fork this" icon to play with the code
+![image](https://github.com/user-attachments/assets/f64625b6-cd23-4362-9858-a90113a4f2df)
 
 ## Running Tests
 1. Open config.h.
@@ -51,7 +57,4 @@ stringlib/
 ## How to use the Extended String Library
 1. Download stringlib.h, stringlib.c and add it in your project.
 2. Include stringlib.h in your application source file.
-3. Refer main.c for method usage.
-
-## Try it yourself!
-Click the link here --> https://onlinegdb.com/PoZjDwgMS
+3. Refer main.c for function usage.
