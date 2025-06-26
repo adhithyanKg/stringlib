@@ -37,7 +37,7 @@ stringlib/
 ```
 
 ## Try it yourself!
-Click the link here --> <a href="https://onlinegdb.com/PoZjDwgMS" target="_blank" rel="noopener noreferrer">Project Demo</a> 
+Click the link here --> https://onlinegdb.com/PoZjDwgMS 
 
 #### Note: Click on "Fork this" icon to play with the code
 ![image](https://github.com/user-attachments/assets/f64625b6-cd23-4362-9858-a90113a4f2df)
