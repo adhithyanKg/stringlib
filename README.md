@@ -45,14 +45,16 @@ Click the link here --> https://onlinegdb.com/PoZjDwgMS
 ## Running Tests
 1. Open config.h.
 2. Enable unit test by uncommenting #define RUN_TESTS line.
-3. Compile and run.
-4. You will see Test results in the console.
+3. Disable main application by commenting #define RUN_MAIN line.
+4. Compile and run.
+5. You will see Test results in the console.
 
 ## Running Application
 1. Open config.h.
 2. Enable main application by uncommenting #define RUN_MAIN line.
-3. Compile and run.
-4. You will see main application running in the console.
+3. Disable uint test by commenting #define RUN_TESTS line.
+4. Compile and run.
+5. You will see main application running in the console.
 
 ## How to use the Extended String Library
 1. Download stringlib.h, stringlib.c and add it in your project.
